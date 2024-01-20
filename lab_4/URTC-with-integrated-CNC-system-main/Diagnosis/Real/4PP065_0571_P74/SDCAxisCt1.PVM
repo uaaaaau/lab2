@@ -1,0 +1,17 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=SDCAxisCt1 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=5 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                           fb_controller                            FB_Controller    0 "                                                               *"    0   24    1    0    1    1         
+                                      in                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                                     out                                     REAL    0 "                                                 -4.39584255E-07"    1    8    1   10    0    0         
+                                     k_i                                     REAL    0 "                                                            0.03"    1    8    1   10    0    0         
+                                     sum                                     REAL    0 "                                                 -4.39584255E-07"    1    8    1   10    0    0         
+                                     k_p                                     REAL    0 "                                                            0.03"    1    8    1   10    0    0         
+                                      dt                                     REAL    0 "                                                           0.002"    1    8    1   10    0    0         
+                           max_abs_value                                     REAL    0 "                                                            24.0"    1    8    1   10    0    0         
+                              integrator                            FB_Integrator    0 "                                                               *"    1   24    1    0    0    1         
+                                      in                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                                      dt                                     REAL    0 "                                                           0.002"    2    8    1   10    0    0         
+                                     out                                     REAL    0 "                                                 -4.39584255E-07"    2    8    1   10    0    0         
+                                   state                                     REAL    0 "                                                 -4.39584255E-07"    2    8    1   10    0    0         
+                                last_sum                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
